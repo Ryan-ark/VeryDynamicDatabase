@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Very Dynamic Database"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- User Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/add_user_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Car Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Car"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/make_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Make"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/model_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/user_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User ID"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/add_car_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Car"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Update User Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update User"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_user_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User ID to Update"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Name (leave blank to keep unchanged)"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Email (leave blank to keep unchanged)"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/update_user_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update User"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Update Car Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Car"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_car_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Car ID to Update"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_make_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Make (leave blank to keep unchanged)"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_model_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Model (leave blank to keep unchanged)"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Year (leave blank to keep unchanged)"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/update_car_user_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New User ID (leave blank to keep unchanged)"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/update_car_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Car"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Delete User Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete User"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/delete_user_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User ID to Delete"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/delete_user_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete User (and all associated cars)"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Delete Car Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Car"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/delete_car_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Car ID to Delete"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/delete_car_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Car"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Show All Data Button -->
+        <Button
+            android:id="@+id/show_all_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show All Data"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Output Text Area -->
+        <TextView
+            android:id="@+id/output_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:fontFamily="monospace"
+            android:text="Database output will appear here"
+            android:minHeight="200dp"/>
+
+    </LinearLayout>
+</ScrollView>
